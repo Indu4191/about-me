@@ -118,7 +118,7 @@ hr {
 	background-color: #FFF;
 }
 .section-title {
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 .btn-custom {
 	text-transform: uppercase;
@@ -166,7 +166,7 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 10px 0 40px 0;
+	padding: 10px 0 10px 0;
 }
 .intro h1 {
 	color: rgba(255,255,255,0.9);
@@ -184,11 +184,11 @@ hr {
 }
 header .intro-text {
 	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 60px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
 	background: rgb(84,208,221); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
@@ -197,6 +197,7 @@ header .intro-text {
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0 ); /* IE6-9 */
 }
 #about .about-text {
+	text-align: left;
 	margin-left: 10px;
 }
 #about img {
@@ -400,7 +401,7 @@ color: #2c3e50;
 color: #2c3e50;
 }
 #contact .social {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 #contact .social ul li {
 	display: inline-block;
@@ -446,4 +447,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	float: left;
 	margin-bottom: 20px;
 }
+}
+
+.thumbnail {
+	padding: 0px;
+}
+
+.caption {
+	height: 200px;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.my-image {
+	height: 157.25px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.about-hr {
+	margin-bottom: 10px;
 }
