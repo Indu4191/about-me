@@ -112,18 +112,18 @@
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/homesale.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Predictive Analysis to estimate the sale price and the cost-effectiveness of doing renovations for Real-Estate company</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <img src="img/portfolio/keyword.png" class="portfolio-img img-responsive" alt="Project Title">
+          <p>Analysed and visualised by Web scraping the job sites.</p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#webscrape">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/sentiment.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>NLP Sentiment Analysis</p>
+          <img src="img/portfolio/homesale.jpg" class="portfolio-img img-responsive" alt="Project Title">
+          <p>Predictive Analysis to estimate the sale price and the cost-effectiveness of doing renovations for Real-Estate company</p>
           <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
         </div>
-      </div>
+       </div>
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/evergreen2.png" class="portfolio-img img-responsive" alt="Project Title">
@@ -154,8 +154,8 @@
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/keyword.png" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Analysed and visualised by Web scraping the job sites.</p>
+          <img src="img/portfolio/sentiment.jpg" class="portfolio-img img-responsive" alt="Project Title">
+          <p>NLP Sentiment Analysis</p>
           <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
         </div>
       </div>
@@ -185,7 +185,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Overview</h4>
       </div>
       <div class="modal-body">
         <p>The goal of this project is multi-pronged, to build a model that borrowers can use to help make the best financial
@@ -193,11 +193,16 @@
            improve the state of the art  in credit scoring by predicting probability of credit risk. I got the dataset from
            Kaggle with 1000 instances.In order to perform analysis , 20 attributes like his economic status, credit history ,
            personal status etc are considered. Once Exploratory Analysis is done , Data Visualisation is performed using tableau and
-           Python (matplotlib, seaborn).
+           Python (matplotlib, seaborn).You can view my Tableau dashboard here
+           <a>https://public.tableau.com/profile/indraja.bandla#!/vizhome/CRMgermandatavisualtreat/Story1</a>
         </p>
         <p>I tried Logistic,Ridge and Lasso to eliminate the unimportant features. Ridge did not helped much but Lasso helped to pick 33 features and eliminate the other 28 features .I also tried with Logistic picked top 20 features.
           All of my predictors are categorical and my target is also categorical and known(Supervised Machine Learning) ,So, Classification is the best choice.I tried different Classification methods like Logistic, Ridge and Lasso and constructed the confusion matrix and visualised the Roc curve.
-          Also, I tried Random Forest, Support Vector Machine classifier, Decision Tree Classifier, KNN(Know your nearest neighbour classifier) , Adaptive boosting .Out of them , Logistic has given 78.8% accuracy with less number of False positives and False negatives.The area under ROC curve is 0.81
+          Also, I tried Random Forest, Support Vector Machine classifier, Decision Tree Classifier, KNN(Know your nearest neighbour classifier) , Adaptive boosting .Out of them , Logistic has given 78.8% accuracy with less number of False positives and False negatives.The area under ROC curve is 0.81.
+          The detailed analysis can be seen in my github
+          <a>https://github.com/Indu4191/Projects/tree/master/Capstone%20Project </a>
+        </p>
+        <p>
           I have met most of the objectives in learning Machine Learning concepts, being able to apply various models, algorithms, and strategies to achieve relatively good predictions.My best prediction accuracy is 78.8% which seems to good outcome.
         </p>
       </div>
@@ -207,6 +212,26 @@
     </div>
   </div>
 </div>
+<div id="webscrape" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Overview</h4>
+      </div>
+      <div class="modal-body">
+        <p> This a project where Web scraping and predictive analysis is involved.The main goal of the project is to get data from any job portal using Web Scraping and Predictive analysis is done on Salary.To figure out the factors influences the Salary, Machine Learning Techniques are used.
+            Web Scraping on <a> https://www.seek.com.au/ </a>is performed using scrapy.I have taken for keywords like  Data Analyst, Data Scientist, Business Analyst and Data Engineer. I have considered for Sydney, Melbourne and Brisbane.I made the details as a data frame with their corresponding industry, work type, Company that advertised, Salary, region (like inner suburbs, CBD), Job description in two different columns, page number and URL.
+        </p>
+        <p>Data Cleaning is performed for Exploratory Data Analysis.I visualised using Python libraries (matplotlib, Seaborn) and with Tableau.I got some interesting findings from Data Visualisation.
+           Sydney has more jobs with work type as full time.out of all industries, Salary paid highest to the Information and Technology.you can find many more findings in my Tableau public workbook here
+          <a> https://public.tableau.com/views/predictionsonwebscrapedjobs/Story1?:embed=y&:display_count=yes&publish=yes </a>
+          <p>After that Feature Engineering is performed.I performed Decision Tree Classifier, Logistic Regression Classifier to investigate the factors affecting salary(high vs low).I got that seniority level with Information and Technology in Sydney is influencing the salary.
+            Data modelling of job skills and keywords are investigated that impact salary.keywords like research, design, data, modelling, SQL are listed at the top.From here I concentrated on Data Science Jobs, I got that Science and Technology who has Masters with job location Sydney are paid more.
+            The skills and locations which are most common in key industries are Information and Communications, Accounting and Finance.
+            I constructed the confusion matrix where I got 71.3% accuracy in predicting salary range with Roc curve of 0.75.The entire analysis can be viewed in my GitHub
+            <a> https://github.com/Indu4191/Projects/tree/master/webscraping%20%26%20predictive%20anlysis </a>
+          </p>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
