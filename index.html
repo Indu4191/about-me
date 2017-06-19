@@ -112,51 +112,51 @@
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/homesale.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Predictive Analysis to estimate the sale price and the cost-effectiveness of doing renovations for Real-Estate company</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <img src="img/portfolio/keyword.png" class="portfolio-img img-responsive" alt="Project Title">
+          <p>Analysed and visualised by Web scraping the job sites.</p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#webscrape">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/sentiment.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>NLP Sentiment Analysis</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <img src="img/portfolio/homesale.jpg" class="portfolio-img img-responsive" alt="Project Title">
+          <p>Predictive Analysis to estimate the sale price and the cost-effectiveness of doing renovations for Real-Estate company</p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#predictive">Read More...</button>
         </div>
-      </div>
+       </div>
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/evergreen2.png" class="portfolio-img img-responsive" alt="Project Title">
           <p>Finding evergreen sites using JSON</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <button class="btn btn-default" data-toggle="modal" data-target="#greenness">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/sale.jpg" class="portfolio-img img-responsive" alt="Project Title">
           <p>Trend Analysis using time series</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <button class="btn btn-default" data-toggle="modal" data-target="#walmart">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/churn2.png" class="portfolio-img img-responsive" alt="Project Title">
           <p>KNN classification and imputations: cellphone churn data </p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <button class="btn btn-default" data-toggle="modal" data-target="#churn">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/music2.jpg" class="portfolio-img img-responsive" alt="Project Title">
           <p>Music Blogging- What makes a song hit? </p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <button class="btn btn-default" data-toggle="modal" data-target="#music">Read More...</button>
         </div>
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/keyword.png" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Analysed and visualised by Web scraping the job sites.</p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
+          <img src="img/portfolio/sentiment.jpg" class="portfolio-img img-responsive" alt="Project Title">
+          <p>NLP Sentiment Analysis</p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#sentiment">Read More...</button>
         </div>
       </div>
     </div>
@@ -172,9 +172,9 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="social">
         <ul>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-google"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/indraja-bandla/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://github.com/Indu4191/Projects"><i class="fa fa-github"></i></a></li>
+          <li><a target="_blank" href="https://indu4191.blogspot.com.au/"><i class="fa fa-user"></i></a></li>
         </ul>
       </div>
     </div>
@@ -185,7 +185,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Overview</h4>
       </div>
       <div class="modal-body">
         <p>The goal of this project is multi-pronged, to build a model that borrowers can use to help make the best financial
@@ -193,12 +193,303 @@
            improve the state of the art  in credit scoring by predicting probability of credit risk. I got the dataset from
            Kaggle with 1000 instances.In order to perform analysis , 20 attributes like his economic status, credit history ,
            personal status etc are considered. Once Exploratory Analysis is done , Data Visualisation is performed using tableau and
-           Python (matplotlib, seaborn).
+           Python (matplotlib, seaborn).You can
+           <a target="_blank" href="https://public.tableau.com/profile/indraja.bandla#!/vizhome/CRMgermandatavisualtreat/Story1">view my Tableau dashboard.</a>
         </p>
         <p>I tried Logistic,Ridge and Lasso to eliminate the unimportant features. Ridge did not helped much but Lasso helped to pick 33 features and eliminate the other 28 features .I also tried with Logistic picked top 20 features.
           All of my predictors are categorical and my target is also categorical and known(Supervised Machine Learning) ,So, Classification is the best choice.I tried different Classification methods like Logistic, Ridge and Lasso and constructed the confusion matrix and visualised the Roc curve.
-          Also, I tried Random Forest, Support Vector Machine classifier, Decision Tree Classifier, KNN(Know your nearest neighbour classifier) , Adaptive boosting .Out of them , Logistic has given 78.8% accuracy with less number of False positives and False negatives.The area under ROC curve is 0.81
+          Also, I tried Random Forest, Support Vector Machine classifier, Decision Tree Classifier, KNN(Know your nearest neighbour classifier) , Adaptive boosting .Out of them , Logistic has given 78.8% accuracy with less number of False positives and False negatives.The area under ROC curve is 0.81.
+          The detailed analysis can be
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/Capstone%20Project">seen in my github repo.</a>
+        </p>
+        <p>
           I have met most of the objectives in learning Machine Learning concepts, being able to apply various models, algorithms, and strategies to achieve relatively good predictions.My best prediction accuracy is 78.8% which seems to good outcome.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="webscrape" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Overview</h4>
+      </div>
+      <div class="modal-body">
+        <p> This a project where Web scraping and predictive analysis is involved.The main goal of the project is to get data from any job portal using Web Scraping and Predictive analysis is done on Salary.To figure out the factors influences the Salary, Machine Learning Techniques are used.
+            Web Scraping on <a target="_blank" href="https://www.seek.com.au/">Seek website</a> is performed using scrapy.I have taken for keywords like  Data Analyst, Data Scientist, Business Analyst and Data Engineer. I have considered for Sydney, Melbourne and Brisbane.I made the details as a data frame with their corresponding industry, work type, Company that advertised, Salary, region (like inner suburbs, CBD), Job description in two different columns, page number and URL.
+        </p>
+        <p>Data Cleaning is performed for Exploratory Data Analysis.I visualised using Python libraries (matplotlib, Seaborn)
+           and with Tableau.I got some interesting findings from Data Visualisation. Sydney has more jobs with work type as
+           full time.out of all industries, Salary paid highest to the Information and Technology.you can find many more
+           findings in
+          <a target="_blank" href="https://public.tableau.com/views/predictionsonwebscrapedjobs/Story1?:embed=y&:display_count=yes&publish=yes ">
+            my Tableau public workbook
+          </a>
+        </p>
+        <p>After that Feature Engineering is performed.I performed Decision Tree Classifier, Logistic Regression Classifier to
+          investigate the factors affecting salary(high vs low).I got that seniority level with Information and Technology in
+          Sydney is influencing the salary. Data modelling of job skills and keywords are investigated that impact salary.
+          Keywords like research, design, data, modelling, SQL are listed at the top.From here I concentrated on Data Science Jobs,
+          I got that Science and Technology who has Masters with job location Sydney are paid more.
+          The skills and locations which are most common in key industries are Information and Communications, Accounting and Finance.
+          I constructed the confusion matrix where I got 71.3% accuracy in predicting salary range with Roc curve of 0.75.The entire analysis can be viewed in
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/webscraping%20%26%20predictive%20anlysis">my GitHub repo</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="predictive" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Estimating the value of homes from fixed characteristics.</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          The project’s motto is to,
+        </p>
+        <ul>
+          <li>Develop an algorithm to reliably estimate the value of residential houses based on fixed characteristics.</li>
+          <li> Identify characteristics of houses that the company can cost-effectively change/renovate with their construction team.</li>
+          <li>Evaluate the mean dollar value of different renovations.</li>
+        </ul>
+        <p>
+          I got the dataset and description text  from the kaggle. When I started exploring my dataset, I observed a lot of variables have null values.
+          Some are continuous, others categorical.I wrote a function to fill in both. The categorical ones can be filled and a few of the continuous
+           ones can be filled with 0.I dropped some unwanted columns to make my analysis easier. There are 72 selected features! 
+           That's quite a few. The top variables make sense as far as what is important to estimate the price: living area, cars in 
+           the garage, neighbourhood, age when sold, fireplaces, etc.
+        </p>
+        <p>
+           These coefficients are a bit hard to interpret:
+        </p>
+        <ul>
+          <li>They are in terms of standard deviations of the predictor.</li>
+          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation 
+            increase in this predictor, there will be an x increase in orders of magnitude of the sale price”.</li>
+        </ul>
+        <p>
+          Now that my model that estimates the price of a house based on its static characteristics. My target is to
+        </p>
+        <ul>
+          <li>How would your company use this second model and its coefficients to determine whether they should buy a property or not? </li>
+          <li>Explain how the company can use the two models you have built to determine if they can make money.</li>
+          <li>Investigate how much of the variance in price remaining is explained by these features.</li>
+          <li>Do you trust your model? Should it be used to evaluate which properties to buy and fix up?</li>
+        </ul>
+        <p>
+          You can view my analysis <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/Analysis%20for%20Real%20Estate">here in my GitHub</a>
+        </p>
+        <p>
+          I got some interesting outcomes, these are the valid features indicating for closure vs. not:
+        </p>
+        <ul>
+          <li>North Ames neighbourhood</li>
+          <li>North Ridge neighbourhood</li>
+          <li>Single level house</li>
+          <li>Brick and stone exterior</li>
+          <li>Electrical "mix"</li>
+          <li>"Severe" functionality of house (bad)</li>
+        </ul>
+        <p>
+          Features predicting against forclosure:
+        </p>
+        <ul>
+          <li>North ridge heights neighbourhood</li>
+          <li>Good quality fireplace</li>
+          <li>No fence</li>
+          <li>Sold in month 6. Interesting.</li>
+          <li>A later year remodelled (more recent)</li>
+          <li>A lower sale price.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="greenness" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Predicting "Greenness" Of Content</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          The mission is to build a classifier which will evaluate a large set of URLs and label them as either evergreen or ephemeral.A high-quality 
+          prediction of "ephemeral" or "evergreen" would greatly improve a recommendation system.
+        </p>
+        <p>
+          This dataset comes from <a target="_blank" href="https://www.stumbleupon.com/">stumbleupon</a> a web page recommender and was made available 
+          <a target="_blank" href="https://www.kaggle.com/c/stumbleupon/download/train.tsv">here</a>. Data cleaning is performed on tsv file.Two new columns body, 
+          title are made from the boilerplate column.The boilerplate column is in JSON dictionary format.  JSON.loads() function is used from the 
+          JSON module to convert this into a python dictionary.
+        </p>
+        <p>
+          To determine evergreen sites, websites that always relevant like recipes or reviews (as opposed to current events) are taken and stored as a 
+          binary indicator in the label column.The effect of being a news site on evergreen status is insignificant.More formally, we would accept the 
+          null hypothesis that news sites and non-news sites have an equal probability of being evergreen.
+        </p>
+        <p>
+           Many of the categories appear to have a significant effect on the likelihood of evergreen status. Note that I have set the reference category 
+           to be unknown. This is wrapped into the intercept term. These categories must be interpreted as significantly different from unknown or not
+        </p>
+        <p>Positive predictors of evergreen vs. unknown:</p>
+        <ul>
+          <li>Business</li>
+          <li>Health</li>
+          <li>Recreation</li>
+        </ul>
+        <p>
+          Negative predictors of evergreen vs. unknown:
+        </p>
+        <ul>
+          <li>Arts and entertainment</li>
+          <li>Computer and the Internet</li>
+          <li>Gaming</li>
+          <li>Sports</li>
+        </ul>
+        <p>
+           The rest of the categories are not significantly different than the unknown category in their probability of being evergreen or not.
+        </p>
+        <ul>
+          <li>They are in terms of standard deviations of the predictor.</li>
+          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation 
+            increase in this predictor, there will be an x increase in orders of magnitude of the sale price”.</li>
+        </ul>
+        <p>
+          Now that my model that estimates the price of a house based on its static characteristics. My target is to
+        </p>
+        <p>
+          Once it's modelled well (convert the image ratio to percentiles and include a quadratic term) we can see these significant effects:
+        </p>
+        <ul>
+          <li>There is a positive effect of the image ratio percentile score (its rank across image_ratios)</li>
+          <li>There is a negative quadratic effect of image ratio. That is to say, at a certain point, the squared term of image_ratio_pctl overtakes the 
+            linear term. The highest probability of evergreen sites have image ratios in the median range.</li>
+        </ul>
+        <p>
+          Here are all significant effects on our predictors here.
+          Must interpret them as odds ratios.:
+        </p>
+        <ul>
+          <li>For a 1 percentile increase in image_ratio, there is a ~1.03x increase in the odds of evergreen</li>
+          <li>For a 1 unit increase in image_ratio_pctl**2, there is a ~0.999x decrease in the odds of evergreen</li>
+          <li>For a 1 percentile increase in html_ratio, there is a ~0.992x decrease in the odds of evergreen</li>
+          <li>For a 1-word increase in the length of the title, there is a ~0.956x decrease in the odds of evergreen</li>
+        </ul>
+        <p>
+          You can view my analysis <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/evergreen%20sites">here in my GitHub</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="music" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">what common themes are there, is there a trend among artists (type of music)?</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Time it takes a song to get to the top.</li>
+          <li>Converting song time to an actual time (from a string)</li>
+          <li>Weekly Average Rating</li>
+          <li>How many weeks a song was number 1</li>
+          <li>Get the correct genre for each artist</li>
+          <li>Word that appears most often in song Names</li>
+          <li>Entry level rating of Genre</li>
+          <li>Time to peak grouped by Genre</li>
+          <li>Visualise the lifecycle of a song (average)</li>
+        </ul>
+        <p>
+          You can
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/Music%20Blogging">view complete analysis in my github repo.</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="walmart" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">what common themes are there, is there a trend among artists (type of music)?</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          Analysing weekly Walmart sales data over a two year period from 2010 to 2012.The most common application for AR, ARMA, and ARIMA models is inventory plann
+          So, the main focus is to
+          Record any observed trends in the data,
+          Produce a trained model to predict future sales numbers
+          Assemble the findings in a report
+        </p>
+        <p>
+          You can
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/ARIMA%20lab">view complete analysis in my github repo.</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="sentiment" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sentiment Analysis Natural Language Processing</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          A predefined dictionary of positive and negative valences for words is used to find which words are most likely to appear in positive or 
+          negative reviews by using the rotten vs. fresh binary label.
+        </p>
+        <p>
+          You can
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/Sentiment%20Analysis">view complete analysis in my github repo.</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="churn" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">KNN classification - imputation: Cellphone churn data</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          You can
+          <a target="_blank" href="https://github.com/Indu4191/Projects/tree/master/Analysis%20on%20Churn%20data">view complete analysis in my github repo.</a>
         </p>
       </div>
       <div class="modal-footer">
