@@ -491,3 +491,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: 100%;
 	background-color: white;
 }
+
+.modal-body {
+	width: 100%;
+}
+
+.modal-body>p>a {
+	color: #54d0dd;
+	word-wrap: break-word;
+	font-weight: bold;
+}
+
+.modal-body>p>a:hover, .modal-body>p>a:focus {
+	text-decoration: none;
+	color: #343b42;
+}
+
+.modal-header>h4 {
+	font-weight: bold;
+}
