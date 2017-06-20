@@ -120,12 +120,7 @@
       <div class="assignment">
         <div class="portfolio-item">
           <img src="img/portfolio/homesale.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Predictive Analysis to estimate the sale price and the cost-effectiveness of doing renovations for Real-Estate company</p>
-<<<<<<< HEAD
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
-=======
           <button class="btn btn-default" data-toggle="modal" data-target="#predictive">Read More...</button>
->>>>>>> 82e66c4ce0410474de3db80ccd4a544aa9f49a14
         </div>
        </div>
       <div class="assignment">
@@ -133,6 +128,13 @@
           <img src="img/portfolio/evergreen2.png" class="portfolio-img img-responsive" alt="Project Title">
           <p>Finding evergreen sites using JSON</p>
           <button class="btn btn-default" data-toggle="modal" data-target="#greenness">Read More...</button>
+        </div>
+      </div>
+      <div class="assignment">
+        <div class="portfolio-item">
+          <img src="img/portfolio/music2.jpg" class="portfolio-img img-responsive" alt="Project Title">
+          <p>Music Blogging- What makes a song hit? </p>
+          <button class="btn btn-default" data-toggle="modal" data-target="#music">Read More...</button>
         </div>
       </div>
       <div class="assignment">
@@ -151,20 +153,9 @@
       </div>
       <div class="assignment">
         <div class="portfolio-item">
-          <img src="img/portfolio/music2.jpg" class="portfolio-img img-responsive" alt="Project Title">
-          <p>Music Blogging- What makes a song hit? </p>
-          <button class="btn btn-default" data-toggle="modal" data-target="#music">Read More...</button>
-        </div>
-      </div>
-      <div class="assignment">
-        <div class="portfolio-item">
           <img src="img/portfolio/sentiment.jpg" class="portfolio-img img-responsive" alt="Project Title">
           <p>NLP Sentiment Analysis</p>
-<<<<<<< HEAD
-          <button class="btn btn-default" data-toggle="modal" data-target="#myModal">Read More...</button>
-=======
           <button class="btn btn-default" data-toggle="modal" data-target="#sentiment">Read More...</button>
->>>>>>> 82e66c4ce0410474de3db80ccd4a544aa9f49a14
         </div>
       </div>
     </div>
@@ -297,8 +288,8 @@
         <p>
           I got the dataset and description text  from the kaggle. When I started exploring my dataset, I observed a lot of variables have null values.
           Some are continuous, others categorical.I wrote a function to fill in both. The categorical ones can be filled and a few of the continuous
-           ones can be filled with 0.I dropped some unwanted columns to make my analysis easier. There are 72 selected features! 
-           That's quite a few. The top variables make sense as far as what is important to estimate the price: living area, cars in 
+           ones can be filled with 0.I dropped some unwanted columns to make my analysis easier. There are 72 selected features!
+           That's quite a few. The top variables make sense as far as what is important to estimate the price: living area, cars in
            the garage, neighbourhood, age when sold, fireplaces, etc.
         </p>
         <p>
@@ -306,7 +297,7 @@
         </p>
         <ul>
           <li>They are in terms of standard deviations of the predictor.</li>
-          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation 
+          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation
             increase in this predictor, there will be an x increase in orders of magnitude of the sale price”.</li>
         </ul>
         <p>
@@ -359,22 +350,22 @@
       </div>
       <div class="modal-body">
         <p>
-          The mission is to build a classifier which will evaluate a large set of URLs and label them as either evergreen or ephemeral.A high-quality 
+          The mission is to build a classifier which will evaluate a large set of URLs and label them as either evergreen or ephemeral.A high-quality
           prediction of "ephemeral" or "evergreen" would greatly improve a recommendation system.
         </p>
         <p>
-          This dataset comes from <a target="_blank" href="https://www.stumbleupon.com/">stumbleupon</a> a web page recommender and was made available 
-          <a target="_blank" href="https://www.kaggle.com/c/stumbleupon/download/train.tsv">here</a>. Data cleaning is performed on tsv file.Two new columns body, 
-          title are made from the boilerplate column.The boilerplate column is in JSON dictionary format.  JSON.loads() function is used from the 
+          This dataset comes from <a target="_blank" href="https://www.stumbleupon.com/">stumbleupon</a> a web page recommender and was made available
+          <a target="_blank" href="https://www.kaggle.com/c/stumbleupon/download/train.tsv">here</a>. Data cleaning is performed on tsv file.Two new columns body,
+          title are made from the boilerplate column.The boilerplate column is in JSON dictionary format.  JSON.loads() function is used from the
           JSON module to convert this into a python dictionary.
         </p>
         <p>
-          To determine evergreen sites, websites that always relevant like recipes or reviews (as opposed to current events) are taken and stored as a 
-          binary indicator in the label column.The effect of being a news site on evergreen status is insignificant.More formally, we would accept the 
+          To determine evergreen sites, websites that always relevant like recipes or reviews (as opposed to current events) are taken and stored as a
+          binary indicator in the label column.The effect of being a news site on evergreen status is insignificant.More formally, we would accept the
           null hypothesis that news sites and non-news sites have an equal probability of being evergreen.
         </p>
         <p>
-           Many of the categories appear to have a significant effect on the likelihood of evergreen status. Note that I have set the reference category 
+           Many of the categories appear to have a significant effect on the likelihood of evergreen status. Note that I have set the reference category
            to be unknown. This is wrapped into the intercept term. These categories must be interpreted as significantly different from unknown or not
         </p>
         <p>Positive predictors of evergreen vs. unknown:</p>
@@ -397,7 +388,7 @@
         </p>
         <ul>
           <li>They are in terms of standard deviations of the predictor.</li>
-          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation 
+          <li>The target is in log terms (orders of magnitude) So basically a coefficient is saying "for a 1 standard deviation
             increase in this predictor, there will be an x increase in orders of magnitude of the sale price”.</li>
         </ul>
         <p>
@@ -408,7 +399,7 @@
         </p>
         <ul>
           <li>There is a positive effect of the image ratio percentile score (its rank across image_ratios)</li>
-          <li>There is a negative quadratic effect of image ratio. That is to say, at a certain point, the squared term of image_ratio_pctl overtakes the 
+          <li>There is a negative quadratic effect of image ratio. That is to say, at a certain point, the squared term of image_ratio_pctl overtakes the
             linear term. The highest probability of evergreen sites have image ratios in the median range.</li>
         </ul>
         <p>
@@ -466,7 +457,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">what common themes are there, is there a trend among artists (type of music)?</h4>
+        <h4 class="modal-title">Trend Analysis using ARIMA</h4>
       </div>
       <div class="modal-body">
         <p>
@@ -496,7 +487,7 @@
       </div>
       <div class="modal-body">
         <p>
-          A predefined dictionary of positive and negative valences for words is used to find which words are most likely to appear in positive or 
+          A predefined dictionary of positive and negative valences for words is used to find which words are most likely to appear in positive or
           negative reviews by using the rotten vs. fresh binary label.
         </p>
         <p>
